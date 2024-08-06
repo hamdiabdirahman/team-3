@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="bookstore.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+    <!---Header-->
+    <header class="header">
+        <a class="logo" href="/index.html">Cliffhanger</a>
+        <form class="search-bar">
+          <label class="hidden">search field</label>
+          <input type="search" placeholder="Search..." />
+        </form>
+        <!--Navigation-->
+        <div class="nav-cart-container">
+          <nav>
+            <a class="nav-item" href="/login.html">Login</a>
+            <a class="nav-item" href="/bookstore.html">Contact</a>
+          </nav>
+          <!--End of nav-->
+        </div>
+      </header>
+      <!--End of header-->
+<script>
+    function showAlert() {
+        alert("Thanks for you query we will get in contact soon");
+    }
+</script>
+</script>
+
+<body>
+    <div class="container-1">
+        <form class="contact-page" onsubmit="showAlert(); return false;">
+            <h3>Contact Us</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="Message" rows="3" placeholder="Message"></textarea>
+            <button class="submit-1" type="submit"> Send</button>
+        </form>
+    </div>
+</body>
+
+</html>

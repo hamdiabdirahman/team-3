@@ -1,0 +1,238 @@
+/* General Styles */
+.shipping,
+.login,
+.search-bar {
+  font-family: "radley", serif;
+}
+
+.shipping,
+.logo {
+  color: #735b58;
+}
+
+.shipping {
+  background-color: #eee8da;
+  border: solid #eee8da 3px;
+  font-size: 12px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.header {
+  align-items: center;
+  border-bottom: 1px solid #776e5945;
+  display: flex;
+  padding: 0 80px;
+  min-height: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+}
+
+.nav-item,
+.logo,
+.search-bar input {
+  font-size: 17px;
+}
+
+/* Style the links inside the navigation bar */
+.nav-item,
+.logo {
+  margin-left: 20px;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-item {
+  color: #d07e75;
+}
+
+/* Change the color of links on hover */
+.nav-item:hover,
+.cart {
+  color: #d07e75;
+}
+
+.logo {
+  display: flex;
+  font-family: "yeseva one", serif;
+  font-size: 25px;
+  letter-spacing: 3px;
+  margin-left: 0;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.logo:hover {
+  color: #da6457;
+  transition: 1s;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Style the search box inside the navigation bar */
+.search-bar {
+  border: solid 2px #eee8da;
+  border-radius: 50px;
+  color: #eee8da;
+  display: flex;
+  padding: 6px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.search-bar input,
+button {
+  border: none;
+}
+
+.search-bar input:focus {
+  outline: none;
+  color: #d07e75;
+  opacity: 70%;
+}
+
+.nav-cart-container {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.nav-item {
+  color: rgb(218, 100, 87);
+  margin-left: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: radley, serif;
+}
+
+.body {
+  margin: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background: #eee8da;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h1 {
+  color: #735b58;
+  font-weight: 800;
+  margin-bottom: 50px;
+  font-family: "Radley", serif;
+}
+
+form button {
+  padding: 15px;
+  background: #da6457;
+  color: #f8f9fa;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+  font-family: "Radley", serif; /* Added font-family here */
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a,
+  .topnav input[type="text"] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+}
+
+.active {
+  font-family: "yeseva one", serif;
+  color: #735b58;
+  font-size: 15px;
+}
+
+.login {
+  font-family: "radley", serif;
+  color: #d07e75;
+}
+
+.contact {
+  font-family: "radley", serif;
+  margin-top: 18px;
+  margin-left: 120px;
+  color: #735b58;
+}
+
+p {
+  text-align: center;
+  font-size: 12px;
+  font-family: "radley", serif;
+  margin-top: 5px;
+  background-color: #eee8da;
+  padding: 20px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: auto;
+}
+
+.search-bar {
+  font-family: "radley", serif;
+  color: #eee8da;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.form-input {
+  margin-bottom: 40px;
+  border-radius: 10px;
+  padding: 13px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.form-check-label {
+  font-family: "radley", serif;
+}
